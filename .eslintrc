@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb-base",
+
+  "globals" : {
+    "angular": true,
+    "describe": true,
+    "it": true,
+    "beforeEach": true,
+    "expect": true
+  },
+
+  "rules": {
+    "no-restricted-properties": [2, {
+      "object": "disallowedObjectName",
+      "property": "disallowedPropertyName"
+    }]
+  }
+}
