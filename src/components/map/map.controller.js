@@ -33,8 +33,7 @@ const createMarker = (lat, lng, iconAngle) => ({
 });
 
 export default class MapController {
-  constructor($scope, $http, mapService, leafletBoundsHelpers, leafletData) {
-    this.leafletData = leafletData;
+  constructor($scope, $http, mapService, leafletBoundsHelpers) {
     this.center = {};
     this.paths = [];
     this.markers = [];
